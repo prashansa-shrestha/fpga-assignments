@@ -6,7 +6,7 @@ reg c_in;
 wire [7:0] sum;
 wire c_out;
 
-fulladd8 sachin(
+fulladd8 prashansa(
     .a(a), .b(b),
     .c_in(c_in),
     .sum(sum),
@@ -16,7 +16,7 @@ fulladd8 sachin(
 initial begin
 
     $dumpfile("eight_bit_adder.vcd");
-    $dumpvars(0,sachin);
+    $dumpvars(0,prashansa);
 
     a=8'h5f;
     b=8'ha2;
