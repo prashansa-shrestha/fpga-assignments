@@ -36,7 +36,7 @@ gtkwave control_unit.vcd
 ## Verification
 
 Tested with a SystemVerilog testbench in GTKWave — checked instruction fetch/decode, register swap, ALU ops, memory read/write, jumps, and correct FSM transitions.
-
+![alt text](waveform.png)
 ## Conclusion
 
 The control unit correctly fetches, decodes, and executes all supported instructions and generates the right control signals across states. Good hands-on practice with FSM design and processor control logic.
