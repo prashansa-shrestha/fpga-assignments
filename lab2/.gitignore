@@ -1,0 +1,22 @@
+# Compiled simulation binaries
+cpu_sim
+mem_sim
+*.out
+*.vvp
+
+# Waveform dumps
+*.vcd
+*.fst
+*.fsdb
+
+# iverilog/vvp temp files
+*.log
+
+# Unused / superseded source files
+and.v
+arithmetic_units.v
+
+# Editor/OS junk
+.vscode/
+*.swp
+.DS_Store
