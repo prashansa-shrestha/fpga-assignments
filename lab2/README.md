@@ -3,6 +3,9 @@
 **Name:** Prashansa Shrestha
 **Roll No.:** 079BCT061
 
+**Name:** Sunit Kumar Shrestha
+**Roll No.:** 079BCT088
+
 ## Overview
 
 ## Supported Instructions

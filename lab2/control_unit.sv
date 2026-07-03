@@ -3,7 +3,6 @@
 // FETCH -> DECODE -> [FETCH_ADDR] -> EXECUTE -> [STORE] -> FETCH,
 // generating the control lines for memory, the register bank,
 // and the ALU.
-//
 // Instruction format (top bits of `ir` select the type):
 //   ir[7] = 1                 -> ARITH instruction (ALU op)
 //   ir[7] = 0, ir[6] = 0      -> SWAP instruction (swap 2 registers)
@@ -119,7 +118,7 @@ module control_unit #(
         state <= DECODE;
       end
 
-      // ---- DECODE: classify the opcode byte just fetched ----
+      // ---- DECODE: classify the opcode byte to get ALU control signals ----
       DECODE: begin
         ir = recv_data;
         case (ir[7:7])

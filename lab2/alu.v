@@ -24,7 +24,7 @@ module ALU (
   wire [7:0] add_result, sub_result, inc_result, dec_result, left_shift_result, right_shift_result, cmp_result;
   wire add_carry, sub_carry, inc_carry, dec_carry;
 
-  reg [2:0] flag;  //{Zero, Carry, Parity}
+  reg [2:0] flag;  // {Zero, Carry, Parity}
   // checkParity parity(.in(result), .out(flag[0]));
 
   // --- combinational arithmetic units (all computed every cycle,
@@ -152,7 +152,8 @@ module ALU (
           result <= operand1 ^ operand2;
         end
 
-        default: ;  // NOP
+        // NOP
+        default: ;
       endcase
     end
   end

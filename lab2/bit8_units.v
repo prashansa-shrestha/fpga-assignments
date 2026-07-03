@@ -1,4 +1,5 @@
 // =============================================================
+// 8 Bit Adder and Subtractor
 // bit8adder / bit8subtractor
 // Thin wrappers around fulladd8 (from eight_bit_adder.v) that
 // expose the port names expected by alu.v:
