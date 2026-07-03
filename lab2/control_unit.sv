@@ -13,6 +13,7 @@
 //       ir[5] = 1 -> conditional/unconditional JUMP, condition
 //                    selected by ir[4:2] against the flag register
 // =============================================================
+
 module control_unit #(
     parameter int AD_LINES   = 16,
     parameter int DATA_LINES = 8

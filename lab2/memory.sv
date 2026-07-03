@@ -4,6 +4,7 @@
 // When not selected/read, data_bus is driven to high-Z ('z) so
 // other devices on the same bus (e.g. the register bank) can drive it.
 // =============================================================
+
 module memory #(
     parameter int AD_LINES   = 16,
     parameter int DATA_LINES = 8

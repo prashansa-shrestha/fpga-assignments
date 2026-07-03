@@ -6,7 +6,6 @@ module full_adder(
     output carry
 );
 
-
 wire s1;
 wire c1;
 wire c2;

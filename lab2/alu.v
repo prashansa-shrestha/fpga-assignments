@@ -12,6 +12,7 @@
 //   1001 SET FLAGS (flags <= operand1[2:0])
 //   1010 AND    1011 OR    1100 XOR
 // =============================================================
+
 module ALU (
     input [3:0] opcode,
     input clk,
